@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="yummy.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css" />
+	<title>yummy</title>
+</head>
+<body>
+<header id="header">
+<div class="container d-flex align-items-center justify-content-between">
+<a class="navbar-brand fw-bolder fs-3" href="#">FOODIE<span class="text-danger fs-2">.</span></a>
+<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="collapsable-nav hide-mobile" id="navbarSupportedContent">
+			<ul class="navbar-nav main-nav">
+							<li class="nav-item">
+								<a class="nav-link active" href="#hero">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#our-menu">Menu</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#event">Events</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Cheaf">Cheaf</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Gallerys">Gallery</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#">
+									<span>Drop Down</span>
+									<i class="fa-solid fa-chevron-down fs-6"></i>
+								</a>
+								<ul>
+							<li class="nav-item">
+								<a class="nav-links" href="#">Drop Down 1</a>
+							</li>
+						   <li class="dropdown">
+							<a class="nav-links" href="#">
+								<span>Deep Drop Down</span>
+								<i class="fa-solid fa-chevron-down fs-6 "></i>
+							</a>
+							<ul>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 1</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 2</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 3</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 4</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 4</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-links" href="#">Deep Down 2</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-links" href="#">Deep Down 3</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-links" href="#">Deep Down 4</a>
+						</li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">contact</a>
+				</li>
+			</ul>
+		</div>
+			<div class="na-btton">
+			</div>
+		<button class="navbar-toggler mobile-nav-show" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+	<div class="offcanvas-header">
+		<h5 id="offcanvasRightLabel"></h5>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<nav class="navbar navbar-expand-lg navbar-light mobile-nav-nav">
+			<ul class="navbar-nav main-nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="#hero">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#our-menu">Menu</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#event">Events</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Cheaf">Cheaf</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Gallerys">Gallery</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#">
+						<span>Drop Down</span>
+						<i class="fa-solid fa-chevron-down"></i>
+					</a>
+					<ul>
+						<li class="nav-item">
+							<a class="nav-links" href="#">Drop Down 1</a>
+						</li>
+						<li class="dropdown">
+							<a class="nav-links" href="#">
+								<span>Deep Drop Down</span>
+								<i class="fa-solid fa-chevron-down"></i>
+							</a>
+							<ul>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 1</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 2</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 3</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 4</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-links" href="#">Deep Drop Down 4</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-links" href="#">Deep Down 2</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-links" href="#">Deep Down 3</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-links" href="#">Deep Down 4</a>
+						</li>
+					</ul>
+				</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</nav>
+	<a href="#book-a-table" class="btn btn-danger rounded-pill">Book a Table</a>
+</div>
+</header>
+		<main>
+<section id="hero" class="section-bg">
+	<div class="container">
+		<div class="row align-items-center gy-5">
+			<div class="col-lg-6 text-imagess">
+				<h2 data-aos="zoom-out">Enjoy Your Healthy<br>Delicious Food</h2>
+				<p data-aos="zoom-out">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+				<div class="watch-btn d-flex align-items-center">
+					<a href="#book-a-table" class="btn btn-danger book-btn" data-aos="fade-up">Book a Table</a>
+
+					<div class="popup-youtube" data-aos="fade-up">
+						<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" target="_blank" class="text-decoration-none fw-bolder text-dark" >
+							<i class="fa-solid fa-circle-play ms-4 watch-play"></i>
+							<span data-aos="fade-up">Watch Video</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 pt-5 d-flex justify-content-end text-imgg">
+				<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/hero-img.png" class="img-fluid" width="85%" data-aos="zoom-out"  data-aos="zoom-in">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="about">
+	<div class="container" data-aos="slide-up">
+		<div class="section-header">
+			<h2 class="text-center">About us</h2>
+			<p class="text-center">Learn More<span> About Us</span></p>
+		</div>
+		<div class="row gy-4">
+			<div class="col-lg-7 back-img aos-init" >
+				<div class="call-us">
+					<h4>Book aTable</h4>
+					<p>+1 5589 55488 55</p>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="contact ps-0 ps-lg-5" >
+					<p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<ul class="list-unstyled nav-icon">
+						<li>
+							<i class="fa-solid fa-check-double"></i>
+							Ullamco laboris nisi ut aliquip ex ea commodo consequat
+						</li>
+						<li>
+							<i class="fa-solid fa-check-double"></i>
+							Duis aute irure dolor in reprehenderit in voluptate velit.
+						</li>
+						<li>
+							<i class="fa-solid fa-check-double"></i>
+							Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+						</li>
+					</ul>
+					<p>
+						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+					</p>
+					<div class="position-relative mt-4">	
+						<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/about-2.jpg" class="img-fluid">
+						<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="why-us" class="section-bg">
+	<div class="container" data-aos="slide-up">
+		<div class="row gy-4">
+			<div class="col-lg-4">
+				<div class="why-box">
+					<h3>Why Choose Yummy?</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+					<div class="text-center">
+						<button type="button" class="btn btn-danger book-button">Learn More</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 d-flex align-items-center">
+				<div class="row gy-4">
+					<div class="col-lg-4 ">
+						<div class="icons text-center">
+							<i class="fa-solid fa-clipboard"></i>
+							<h4>Corporis voluptates officia eiusmod</h4>
+							<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+						</div>
+					</div>
+					<div class="col-lg-4 ">
+						<div class="icons text-center">
+							<i class="fa-solid fa-gem"></i>
+							<h4>Ullamco laboris ladore pan</h4>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+						</div>
+					</div>
+					<div class="col-lg-4 ">
+						<div class="icons text-center">
+							<i class="fa-solid fa-inbox"></i>
+							<h4>Labore consequatur incidid dolore</h4>
+							<p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	<section id="counts">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 text-center pt-5">
+					<div class="start-counts">
+						<h2 class="counter-numbers">232</h2>
+						<p class="position-relative">Cilent</p>
+					</div>
+				</div>
+				<div class="col-lg-3 text-center pt-5">
+					<div class="start-counts">
+						<h2 class="counter-numbers">521</h2>
+						<p class="position-relative">Project</p>
+					</div>
+				</div>
+				<div class="col-lg-3 text-center pt-5">
+					<div class="start-counts">
+						<h2 class="counter-numbers">1453</h2>
+						<p class="position-relative">Hours Of Support</p>
+					</div>
+				</div>
+				<div class="col-lg-3 text-center pt-5">
+					<div class="start-counts">
+						<h2 class="counter-numbers">32</h2>
+						<p class="position-relative">Workers</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section id="our-menu">
+<div class="container" data-aos="slide-up">
+<div class="section-header">
+	<h2 class="text-center">OUR MENU</h2>
+	<p class="text-center">Check Our <span>Yummy Menu</span></p>
+	<ul class="nav nav-tab d-flex justify-content-center starters" data-aos="fade-up"  data-aos-delay="200" role="tablist">
+		<li class="nav-item" role="presentation">
+			<a class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu-starters" aria-selected="true" role="tab">Starters</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast" aria-selected="true" role="tab">Breakfast</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch" aria-selected="true" role="tab">Lunch</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner" aria-selected="true" role="tab">Dinner</a>
+		</li>
+	</ul>
+</div>
+<div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+	<div class="tab-pane fade active show" id="menu-starters" role="tabpanel">
+		<div class="menu-text mt-4">
+			<p class="text-center">menu</p>
+			<h2 class="text-center">Starters</h2>
+		</div>
+		<div class="row galleryess">
+			<div class="col-lg-4">
+				<div class="images">
+					<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" target="_blank">
+						<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" class="img-fluid pe-5 ps-5"></a>
+						<p class="images-text">Magnam Tiste</p>
+						<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+						<p class="text-center text-danger fw-bolder fs-4">$5.95</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="images">
+						<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" target="_blank">
+							<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" class="img-fluid pe-5 ps-5"></a>
+							<p class="images-text">Aut Luia</p>
+							<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+							<p class="text-center text-danger fw-bolder fs-4">$14.95</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="images  align-items-center">
+							<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" target="_blank">
+								<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" class="img-fluid pe-5 ps-5"></a>
+								<p class="images-text">Est Eligendi</p>
+								<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+								<p class="text-center text-danger fw-bolder fs-4">$8.95</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="images">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" target="_blank">
+									<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" class="img-fluid pe-5 ps-5"></a>
+									<p class="images-text">Eos Luibusdam</p>
+									<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+									<p class="text-center text-danger fw-bolder fs-4">$12.95</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="images">
+									<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" target="_blank">
+										<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" class="img-fluid pe-5 ps-5"></a>
+										<p class="images-text">Laboriosam Direva</p>
+										<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+										<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="images">
+										<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" target="_blank">
+											<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" class="img-fluid pe-5 ps-5"></a>
+											<p class="images-text">Laboriosam Direva</p>
+											<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+											<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade " id="menu-breakfast" role="tabpanel">
+								<div class="menu-text mt-4">
+									<p class="text-center">menu</p>
+									<h2 class="text-center">Breakfast</h2>
+								</div>
+								<div class="row galleryess">
+									<div class="col-lg-4">
+										<div class="images">
+											<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" target="_blank">
+												<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" class="img-fluid pe-5 ps-5"></a>
+												<p class="images-text">Magnam Tiste</p>
+												<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+												<p class="text-center text-danger fw-bolder fs-4">$5.95</p>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="images">
+												<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" target="_blank">
+													<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" class="img-fluid pe-5 ps-5"></a>
+													<p class="images-text">Aut Luia</p>
+													<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+													<p class="text-center text-danger fw-bolder fs-4">$14.95</p>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="images  align-items-center">
+													<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" target="_blank">
+														<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" class="img-fluid pe-5 ps-5"></a>
+														<p class="images-text">Est Eligendi</p>
+														<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+														<p class="text-center text-danger fw-bolder fs-4">$8.95</p>
+												</div>
+											</div>
+				<div class="col-lg-4">
+				<div class="images">
+				<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" target="_blank">
+					<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" class="img-fluid pe-5 ps-5"></a>
+					<p class="images-text">Eos Luibusdam</p>
+					<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+					<p class="text-center text-danger fw-bolder fs-4">$12.95</p>
+				</div>
+				</div>
+				<div class="col-lg-4">
+				<div class="images">
+					<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" target="_blank">
+						<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" class="img-fluid pe-5 ps-5"></a>
+						<p class="images-text">Laboriosam Direva</p>
+						<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+						<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="images">
+						<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" target="_blank">
+							<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" class="img-fluid pe-5 ps-5"></a>
+							<p class="images-text">Laboriosam Direva</p>
+							<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+							<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="tab-pane fade " id="menu-lunch" role="tabpanel">
+				<div class="menu-text mt-4">
+					<p class="text-center">menu</p>
+					<h2 class="text-center">Lunch</h2>
+				</div>
+				<div class="row galleryess">
+					<div class="col-lg-4">
+						<div class="images">
+							<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" target="_blank">
+								<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" class="img-fluid pe-5 ps-5"></a>
+								<p class="images-text">Magnam Tiste</p>
+								<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+								<p class="text-center text-danger fw-bolder fs-4">$5.95</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="images">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" target="_blank">
+									<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" class="img-fluid pe-5 ps-5"></a>
+									<p class="images-text">Aut Luia</p>
+									<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+									<p class="text-center text-danger fw-bolder fs-4">$14.95</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="images  align-items-center">
+									<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" target="_blank">
+										<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" class="img-fluid pe-5 ps-5"></a>
+										<p class="images-text">Est Eligendi</p>
+										<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+										<p class="text-center text-danger fw-bolder fs-4">$8.95</p>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="images">
+										<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" target="_blank">
+											<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" class="img-fluid pe-5 ps-5"></a>
+											<p class="images-text">Eos Luibusdam</p>
+											<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+											<p class="text-center text-danger fw-bolder fs-4">$12.95</p>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="images">
+											<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" target="_blank">
+												<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" class="img-fluid pe-5 ps-5"></a>
+												<p class="images-text">Laboriosam Direva</p>
+												<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+												<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="images">
+												<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" target="_blank">
+													<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" class="img-fluid pe-5 ps-5"></a>
+													<p class="images-text">Laboriosam Direva</p>
+													<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+													<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade " id="menu-dinner" role="tabpanel">
+										<div class="menu-text mt-4">
+											<p class="text-center">menu</p>
+											<h2 class="text-center">Dinner</h2>
+										</div>
+										<div class="row galleryess">
+											<div class="col-lg-4">
+												<div class="images">
+									<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" target="_blank">
+										<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" class="img-fluid pe-5 ps-5"></a>
+										<p class="images-text">Magnam Tiste</p>
+										<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+										<p class="text-center text-danger fw-bolder fs-4">$5.95</p>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="images">
+										<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" target="_blank">
+											<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" class="img-fluid pe-5 ps-5"></a>
+											<p class="images-text">Aut Luia</p>
+											<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+											<p class="text-center text-danger fw-bolder fs-4">$14.95</p>
+										</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="images  align-items-center">
+							<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" target="_blank">
+								<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png" class="img-fluid pe-5 ps-5"></a>
+								<p class="images-text">Est Eligendi</p>
+								<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+								<p class="text-center text-danger fw-bolder fs-4">$8.95</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="images">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" target="_blank">
+									<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" class="img-fluid pe-5 ps-5"></a>
+									<p class="images-text">Eos Luibusdam</p>
+									<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+									<p class="text-center text-danger fw-bolder fs-4">$12.95</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="images">
+									<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" target="_blank">
+										<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" class="img-fluid pe-5 ps-5"></a>
+										<p class="images-text">Laboriosam Direva</p>
+										<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+										<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="images">
+										<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" target="_blank">
+											<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" class="img-fluid pe-5 ps-5"></a>
+											<p class="images-text">Laboriosam Direva</p>
+											<p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+											<p class="text-center text-danger fw-bolder fs-4">$9.95</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</section>
+					<section id="testmonials" class="section-bg">
+					<div class="container" data-aos="slide-up">
+						<div class="section-header">
+							<h2 class="text-center fs-6">Testmonials</h2>
+							<p class="text-center">WHAT ARE THEY<span>SAYING ABOUT US</span></p>
+						</div>
+						<div class="row gy-4">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<div id="demo" class="carousel slide" data-bs-ride="carousel">
+												  <div class="carousel-indicators">
+												    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+												    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+												    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+												  </div>
+												  <div class="carousel-inner">
+
+												    <div class="carousel-item active">
+												      <div class="row align-items-center">
+															<div class="col-lg">
+												<div class="test-monials ps-3">
+													<p>
+														<i class="fa-solid fa-quote-left fs-5 text-danger position-relative dots "></i>
+														<span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+														</span>
+														<i class="fa-solid fa-quote-right fs-5 text-danger position-relative dotes"></i>
+													</p>
+													<p class="fw-bolder fs-5">Saul Goodman </p>
+													<p>Ceo & Founder</p>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+											</div>
+											<div class="col-lg-auto">
+												<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/testimonials/testimonials-1.jpg" class="img-fluid men-women-img">
+											</div>
+										</div>
+									    </div>
+									    <div class="carousel-item">
+									      <div class="row align-items-center">
+											<div class="col-lg">
+												<div class="test-monials ps-3">
+													<p>
+														<i class="fa-solid fa-quote-left fs-5 text-danger position-relative dots"></i>
+														<span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+														</span>
+														<i class="fa-solid fa-quote-right fs-5 text-danger position-relative dotes"></i>
+													</p>
+													<p class="fw-bolder fs-5">Sara Wilisom</p>
+													<p>Designer</p>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+											</div>
+											<div class="col-lg-auto">
+												<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/testimonials/testimonials-2.jpg" class="img-fluid men-women-img">
+											</div>
+										</div>
+										    </div>
+										    <div class="carousel-item">
+										      <div class="row align-items-center">
+											<div class="col-lg">
+												<div class="test-monials ps-3">
+													<p>
+														<i class="fa-solid fa-quote-left fs-5 text-danger position-relative dots"></i>
+														<span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+														</span>
+														<i class="fa-solid fa-quote-right fs-5 text-danger position-relative dotes"></i>
+													</p>
+													<p class="fw-bolder fs-5">jena karlis</p>
+													<p>Store Owner</p>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+											</div>
+								<div class="col-lg-auto">
+								<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/testimonials/testimonials-3.jpg" class="img-fluid men-women-img">
+								</div>
+								</div>
+							    </div>
+							  	</div>
+							  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+							    <span class="carousel-control-prev-icon"></span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+							    <span class="carousel-control-next-icon"></span>
+							  </button>
+							</div>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</section>
+				<section id="event">
+					<div class="container-fluid p-0"  data-aos="slide-up">
+						<div class="section-header">
+							<h2 class="text-center ">event</h2>
+							<p class="text-center">wHAT ARE THEY <span>SAYING ABOUT US</span></p>
+						</div>
+						<div class="owl-carousel owl-theme photo-theme">
+							<div class="item" style="background-image:url(testmonial/events-2.jpg); min-height:530px;">
+								<div class="heading-para text-white position-relative">
+									<h3>Private Parties</h3>
+									<span class="fs-4 fw-bolder text-white">$499</span>
+									<p class="pt-3 fs-6">
+										In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+									</p>
+								</div>
+							</div>
+							<div class="item" style="background-image:url(testmonial/events-3.jpg); min-height:530px;">
+								<div class="heading-para text-white position-relative">
+									<h3>custom parties</h3>
+									<span class="fs-4 fw-bolder text-white">$99</span>
+									<p class="pt-3 fs-6">
+										In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+									</p>
+								</div>
+							</div>
+							<div class="item" style="background-image:url(testmonial/events-1.jpg); min-height:530px;">
+								<div class="heading-para text-white position-relative">
+									<h3>Birthday parties</h3>
+									<span class="fs-4 fw-bolder text-white">$289</span>
+									<p class="pt-3 fs-6">
+										In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+									</p>
+								</div>
+							</div>
+							<div class="item" style="background-image:url(testmonial/events-2.jpg); min-height:530px;">
+								<div class="heading-para text-white position-relative">
+									<h3>Private Parties</h3>
+									<span class="fs-4 fw-bolder text-white">$499</span>
+									<p class="pt-3 fs-6">
+										In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+									</p>
+								</div>
+							</div>
+							<div class="item" style="background-image:url(testmonial/events-3.jpg); min-height:530px;">
+								<div class="heading-para text-white position-relative">
+									<h3>custom parties</h3>
+									<span class="fs-4 fw-bolder text-white">$99</span>
+									<p class="pt-3 fs-6">
+										In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+									</p>
+								</div>
+							</div>
+							<div class="item" style="background-image:url(testmonial/events-1.jpg); min-height:530px;">
+								<div class="heading-para text-white position-relative">
+									<h3>Birthday parties</h3>
+									<span class="fs-4 fw-bolder text-white">$289</span>
+									<p class="pt-3 fs-6">
+										In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="Cheaf" class="section-bg">
+					<div class="container"  data-aos="slide-up">
+						<div class="section-header">
+							<h2 class="text-center">chef</h2>
+							<p class="text-center">OUR <span>PROFFESIONAL</span> CHEAF</p>
+						</div>
+						<div class="row mt-5">
+							<div class="col-lg-4">
+								<div class="member-img">
+									<div class="images-cheaf">
+										<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/chefs/chefs-1.jpg" class="img-fluid">
+										<div class="member-icons">
+											<a href><i class="fa-brands fa-square-twitter"></i></a>
+											<a href><i class="fa-brands fa-square-facebook"></i></a>
+											<a href><i class="fa-brands fa-square-instagram"></i></a>
+											<a href><i class="fa-brands fa-linkedin"></i></a>
+										</div>
+									</div>
+									<div class="cheaf-text text-center">
+										<h4>Walter White</h4>
+										<span>Master Chef</span>
+										<p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="member-img">
+									<div class="images-cheaf">
+										<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/chefs/chefs-2.jpg" class="img-fluid">
+										<div class="member-icons">
+											<a href><i class="fa-brands fa-square-twitter"></i></a>
+											<a href><i class="fa-brands fa-square-facebook"></i></a>
+											<a href><i class="fa-brands fa-square-instagram"></i></a>
+											<a href><i class="fa-brands fa-linkedin"></i></a>
+										</div>
+									</div>
+									<div class="cheaf-text text-center">
+										<h4>Sarah Jhonson</h4>
+										<span>Patissier</span>
+										<p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="member-img">
+									<div class="images-cheaf">
+										<img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/chefs/chefs-3.jpg" class="img-fluid">
+										<div class="member-icons">
+											<a href><i class="fa-brands fa-square-twitter"></i></a>
+											<a href><i class="fa-brands fa-square-facebook"></i></a>
+											<a href><i class="fa-brands fa-square-instagram"></i></a>
+											<a href><i class="fa-brands fa-linkedin"></i></a>
+										</div>
+									</div>
+									<div class="cheaf-text text-center">
+										<h4>William Anderson</h4>
+										<span>Cook</span>
+										<p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="book-a-table">
+					<div class="container"  data-aos="slide-up">
+						<div class="section-header">
+							<h2 class="text-center">book a table</h2>
+							<p class="text-center">BOOK <span>YOUR STAY</span> WITH US</p>
+						</div>
+						<div class="row g-0">
+							<div class="col-lg-4">
+								<div class="bg-img" data-aos="zoom-out">
+								</div>
+							</div>
+							<div class="col-lg-8">
+								<form class="naam p-4">
+									<div class="row gy-4">
+										<div class="col-lg-4 col-md-6">
+											<input type="text" name="fname" class="form-control" id="fname" placeholder="your name">
+										</div>
+										<div class="col-lg-4 col-md-6">
+											<input type="email" name="email" class="form-control" id="email" placeholder="your email">
+										</div>
+										<div class="col-lg-4 col-md-6">
+											<input type="contact" name="cnt" class="form-control" id="cnt" placeholder="your phone">
+										</div>
+										<div class="col-lg-4 col-md-6">
+											<input type="text" name="date" class="form-control" id="date" placeholder="date">
+										</div>
+										<div class="col-lg-4 col-md-6">
+											<input type="text" name="time" class="form-control" id="time" placeholder="time">
+										</div>
+										<div class="col-lg-4 col-md-6">
+											<input type="number" name="people" class="form-control" id="people" placeholder="# of people">
+										</div>
+									</div>
+									<div class="from-group mt-3">
+										<textarea class="form-control text-area" name="message" rows="5" placeholder="Message"></textarea>
+										<div class="text-center mt-5 mb-5">
+											<button class="button" type="submit">Book a Table</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="Gallerys" class="section-bg ">
+					<div class="container" data-aos="slide-up">
+						<div class="section-header">
+							<h2 class="text-center">gallery</h2>
+							<p class="text-center"> CHECK <span>OUR GALLERY</span></p>
+						</div>
+						<div class="owl-carousel owl-theme photo-item galleryess">
+							<div class="item">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-3.jpg"></a>
+							</div>
+							<div class="item">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg" class="img-fluid"></a>
+							</div>
+							<div class="item">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-5.jpg" class="img-fluid"></a>
+							</div>
+							<div class="item">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-6.jpg" class="img-fluid"></a>
+							</div>
+							<div class="item">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-7.jpg" class="img-fluid"></a>
+							</div>
+							<div class="item">
+								<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-8.jpg" class="img-fluid"></a></div>
+								<div class="item">
+									<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-1.jpg" class="img-fluid"></a>
+								</div>
+								<div class="item">
+									<a href="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-4.jpg"><img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/gallery/gallery-2.jpg" class="img-fluid"></a>
+								</div>
+							</div>
+						</div>
+					</section>	
+				<section id="contact">
+					<div class="container" data-aos="slide-up">
+						<div class="section-header">
+							<h2 class="text-center">contact</h2>
+							<p class="text-center"> NEED HELP? <span>CONATCT US</span></p>
+						</div>
+						<div class="mb-4">
+							<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen="">
+							</iframe>
+						</div>
+						<div class="row gy-4">
+							<div class="col-lg-6">
+								<div class="info-item d-flex ">
+									<i class="fa-solid fa-map contact-icon"></i>
+									<div class="ps-4">
+										<h3>Our Address</h3>
+										<p>A108 Adam Street, New York, NY 535022</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="info-item d-flex">
+									<i class="fa-solid fa-envelope contact-icon"></i>
+									<div class="ps-4">
+										<h3>Email us</h3>
+										<p>contact@example.com</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="info-item d-flex ">
+									<i class="fa-solid fa-phone contact-icon"></i>
+									<div class="ps-4">
+										<h3>Call Us</h3>
+										<p>+ 555544565766</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="info-item d-flex">
+									<i class="fa-solid fa-share-nodes contact-icon"></i>
+									<div class="ps-4">
+										<h3>Opening Hopurs</h3>
+										<strong>Mon-Sat:</strong>"11AM - 23PM;"
+										<strong>Sunday:</strong>"closed"
+									</div>
+								</div>
+							</div>
+						</div>
+						<form class="names">
+							<div class="row bg-white">
+								<div class="col-xl-6 mt-3 from-group">
+									<input type="text" class="form-control" name="fname" id="fname" placeholder="your Name">
+								</div>
+								<div class="col-xl-6 mt-3 from-group">
+									<input type="text" class="form-control" name="email" id="email" placeholder="your email">
+								</div>
+								<div class="from-group mt-3">
+									<input type="text" class="form-control" name="sub" id="sub" placeholder="subject">
+								</div>
+								<div class="from-group mt-3">
+									<textarea class="form-control text-aarea" name="message" rows="5" placeholder="Message"></textarea>
+								</div>
+								<div class="text-center mt-5 mb-5">
+									<button class="buttons" type="submit">Book a Table</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+				</main>
+				<footer id="footer" class="bg-dark text-white p-5">
+					<div class="container">
+						<div class="row pt-5 pb-5">
+							<div class="col-lg-3 col-md-6 d-flex">
+								<i class="fa-solid fa-location-dot fs-4 lock"></i>
+								<div class="paragraph ps-3">
+									<strong>ADDRESS</strong>
+									<br>
+									<br>
+									<p class="text-paraa">"A108 Adam Street
+										New York, NY 535022 - US"
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 d-flex">
+								<i class="fa-solid fa-phone fs-4 lock"></i>
+								<div class="paragraph ps-3">
+									<strong>RESERVATION</strong>
+									<br>
+									<br>
+									<strong style="color:gray;">Phone:</strong> <span style="color:gray;">+1 5589 55488 55</span><br>
+									<strong style="color:gray;">Email:</strong> <span style="color:gray;">info@example.com</span>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 d-flex">
+								<i class="fa-solid fa-clock fs-4 lock"></i>
+								<div class="paragraph ps-3">
+									<strong>OPENING HOURS</strong>
+									<br>
+									<br>
+									<strong style="color:gray;">Mon-Sat:</strong> <span style="color:gray;">11AM - 23PM
+									Sunday: Closed</span>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 d-flex">
+								<div class="paragraph ps-3">
+									<strong>Follow us</strong>
+									<br><br>
+									<div class="social-icon d-flex">
+										<i class="fa-brands fa-twitter social-1"></i>
+										<i class="fa-brands fa-facebook social-1"></i>
+										<i class="fa-brands fa-instagram social-1"></i>
+										<i class="fa-brands fa-linkedin social-1"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="copyright">
+								<span style="color:gray;">© Copyright </span>
+								<strong style="color:gray;">yummy.</strong>
+								<span style="color:gray;"> All Rights Reserved</span><br>
+								<span style="color:gray;"> Designed by</span> <span>BootstrapMade </span>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<div id="preloader"></div>
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+				<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+				<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js" integrity="sha512-C1zvdb9R55RAkl6xCLTPt+Wmcz6s+ccOvcr6G57lbm8M2fbgn2SUjUJbQ13fEyjuLViwe97uJvwa1EUf4F1Akw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+				<script>
+					$(document).ready(function(){
+						$('.photo-theme').owlCarousel({
+							loop:true,
+							margin:1,
+							nav:false,
+							autoplay:true,
+							items:3,
+							dots:true,
+							autoplayTimeout:2000,
+							responsive:{
+								0:{
+									items:1
+								},
+								600:{
+									items:2
+								},
+								1000:{
+									items:3
+								}
+							}
+
+						});
+
+						$('.photo-item').owlCarousel({
+							loop:true,
+							nav:false,
+							margin:10,
+							autoplay:false,
+							items:5,
+							dots:true,
+							autoplayTimeout:2000,
+							center:true,
+							responsive:{
+								0:{
+									items:1
+								},
+								600:{
+									items:3
+								},
+								1000:{
+									items:5
+								}
+							}
+
+						});
+					
+						
+
+						$('.galleryess').magnificPopup({
+							type:'image',
+							delegate:'a',
+							gallery:{
+								enabled:true
+							}
+						});
+
+
+
+						$('.popup-youtube').magnificPopup({
+							delegate:'a',
+							gallery:{
+								enabled:true
+							},
+
+							type: 'iframe',
+							iframe: {
+								patterns: {
+									youtube: {
+										index: 'youtube.com/', 
+										id: function(url) {        
+											var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
+											if ( !m || !m[1] ) return null;
+											return m[1];
+										},
+										src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+									},
+									vimeo: {
+										index: 'vimeo.com/', 
+										id: function(url) {        
+                        var m = url.match(/(https?:\/\/)?(www.)?(player.)?vimeo.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/);
+											if ( !m || !m[5] ) return null;
+											return m[5];
+										},
+										src: 'https://player.vimeo.com/video/%id%?autoplay=1'
+									}
+								}
+							}
+						});
+
+						$('.counter-numbers').counterUp({
+							delay: 10,
+							time: 1000,
+						});	
+
+						setTimeout(function(){
+							$('#preloader').hide();
+							AOS.init({
+								duration: 2000,
+							})
+						},3000);
+
+
+					});
+				</script>
+
+	</body> 
+	</html>
